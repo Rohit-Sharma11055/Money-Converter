@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONEY CONVERTER</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="money.css">
+</head>
+<body>
+    <div class="data">       <!-- container -->
+        <h1>MONEY CONVERTER</h1>
+        <form>
+            <div class="val">       <!-- amount -->
+                <p>ENTER AMOUNT</p>
+                <input type="1" type="text" name="amount">
+            </div>
+            <div class="main">          <!-- dropdown -->
+                <div class="from">         
+                    <h3>FROM</h3>
+                    <div class="main1">     <!-- select-container -->
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                        <select name="from" id="from"></select>
+                    </div>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <div class="to">
+                    <h3>TO</h3>
+                    <div class="main1">             <!-- select-container -->
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+                        <select name="to" id="to"></select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">1 USD = 80 INR</div>
+            <button>CONVERT</button>
+        </form>
+    </div>
+
+
+    <script src="codes.js"></script>
+    <script src="money.js"></script>
+</body>
+</html>
