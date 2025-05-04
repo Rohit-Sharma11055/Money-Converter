@@ -5,7 +5,7 @@ A simple and interactive **Currency Converter** web application that allows user
 ## ⚙️ Features
 
 - 🔁 Convert between **any two currencies**
-- 💲 Input field for amount entry
+- 💲 Input field for any amount entry
 - 🌐 Dropdown selectors for choosing source and target currencies
 - 📡 Real-time exchange rates using an API 
 
